@@ -82,7 +82,6 @@ N50, L50 y NG50 son estadísticas de un conjunto de longitudes de contig. Se uti
 **¿Cuántos *contigs* conforman el genoma del Bonobo? ¿Cuál es el N50 y L50 del genoma? (responde basado en los *contigs*)**
 
 
-
 ![6](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/informe%203/Imagenes%20informe%203/6.png)
 
 
@@ -90,9 +89,16 @@ N50, L50 y NG50 son estadísticas de un conjunto de longitudes de contig. Se uti
 
 **¿Cuál es el largo total y porcentaje de GC del genoma del Bonobo? ¿Qué quieren decir o qué indican éstos valores?**
 
+* Mediana de la longitud total (Mb): 3169,27
+
+* Mediana de GC%: 41,5096
+
+El contenido GC se utiliza a veces para clasificar organismos en taxonomía, también en una secuencia genómica larga los genes se caracterizan por un elevado GC en comparación con el genoma completo. Un ADN con bajo contenido de GC es menos estable que el ADN con alto contenido de GC. 
+
+
 ## Pregunta 10
 
-**¿Qué tipo de tecnología se uso para secuenciar el genoma del Bonobo? ¿Qué método (programa o algorítmo bioinformático) se usó para ensamblar el genoma?**
+**¿Qué tipo de tecnología se usó para secuenciar el genoma del Bonobo? ¿Qué método (programa o algorítmo bioinformático) se usó para ensamblar el genoma?**
 
-
+El genoma se ensambló utilizando el software [Celera Assembler](http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page) de código abierto, se secuenciaron 19 individuos de bonobos y chimpancés en la plataforma [Illumina GAIIx](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3334598/) teniendo una cobertura genómica de aproximadamente el doble por individuo.
 
