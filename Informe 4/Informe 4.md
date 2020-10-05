@@ -80,7 +80,7 @@ Usando la referencia: ACTAGACTGGA$ (agregando el dollar para significar el fin d
 
 **Ordena los sufijos lexicograficamente guardando los indices dados arriba.**
 
-![tabla](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204/tabla.png)
+![tabla](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204/tabla.PNG)
 
 ## Pregunta 6
 
