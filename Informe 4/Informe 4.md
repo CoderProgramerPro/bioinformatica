@@ -1,4 +1,4 @@
-Informe Bioinformática 3 - Ensamblaje de Genomas
+Informe Bioinformática 4 - Ensamblaje de Genomas II
 ====
 
 * Karina Campos
