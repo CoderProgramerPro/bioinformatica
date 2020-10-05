@@ -73,21 +73,60 @@ Usando la referencia: ACTAGACTGGA$ (agregando el dollar para significar el fin d
 
  
 
+![arbol](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204/arbol.png)
+
 
 ## Pregunta 5
 
 **Ordena los sufijos lexicograficamente guardando los indices dados arriba.**
 
+![tabla](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204/tabla.png)
+
 ## Pregunta 6
 
 **¿Cual es el arreglo de sufijos resultante?**
 
+El arreglo de sufijo = {11, 10, 0, 5, 3, 1, 6, 9, 4, 8, 2, 7} 
+
 ## Pregunta 7
 
 **¿Cual es la cantidad de A,T,G y C que tenemos en la secuencia original?**
+
+Secuencia original: ATACCAG
+
+* A: 3
+
+* T: 1
+
+* C: 2
+
+* G: 1
+
+
+
+
 ## Pregunta 8
 
 **¿Cual es la secuencia original?**
+
+                                                                 F                L
+
+                                                                 $0                G0 
+
+                                                                 A0                T0
+
+                                                                 A1                C0
+
+                                                                 A2                $0
+
+                                                                 C0                C1
+
+                                                                 C1                A0
+
+                                                                 G0                A1
+
+                                                                 T0                A2
+
 
 ## Pregunta 9
 
