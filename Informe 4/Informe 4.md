@@ -109,26 +109,48 @@ Secuencia original: ATACCAG
 
 **¿Cual es la secuencia original?**
 
-                                                                 F                L
+                       F                L
 
-                                                                 $0                G0 
+                      $0                G0 
 
-                                                                 A0                T0
+                      A0                T0
 
-                                                                 A1                C0
+                      A1                C0
 
-                                                                 A2                $0
+                      A2                $0
 
-                                                                 C0                C1
+                      C0                C1
 
-                                                                 C1                A0
+                      C1                A0
 
-                                                                 G0                A1
+                      G0                A1
 
-                                                                 T0                A2
+                      T0                A2
+                      
+                        A2T0A0C1C0A1G0$0
+                    Secuencia original: ATACCAG
 
 
 ## Pregunta 9
 
 **Ahora que tenemos la secuencia original, representa la matriz Burrows-Wheeler que permitío generar el BWT arriba**
+
+
+                      $0A2T0A0C1C0A1G0 
+
+                      A0C1C0A1G0$0A2T0
+
+                      A1G0$0A2T0A0C1C0
+
+                      A2T0A0C1C0A1G0$0
+
+                      C0A1G0$0A2T0A0C1
+
+                      C1C0A1G0$0A2T0A0
+
+                      G0$0A2T0A0C1C0A1
+
+                      T0A0C1C0A1G0$0A2
+
+
 
