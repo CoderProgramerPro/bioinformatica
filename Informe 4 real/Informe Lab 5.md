@@ -25,7 +25,7 @@ Los índices de calidad están codificados en Phred+33
 **Copia los primeros 10 símbolos de esta codificación y convierten estos símbolos en índices de calidad Phred (usando el guía visual arriba). Separa cada índice con un espacio.**
 Los primeros 10 símbolos son :
 
-<B@BBBB@@B@>
+> B@BBBB@@B@
 
 Según la tabla guía, para Phred+33
 
