@@ -1,4 +1,4 @@
-# Informe Bioinformática 4 - Ensamblaje de Genomas II
+# Informe Bioinformática 5 - Ensamblaje de Genomas II
 ====
 
 * Karina Campos
@@ -17,22 +17,35 @@ Parte 1:
 
 **¿Los índices de calidad Phred están codificados en Phred+33 o Phred+64?**
 
+Los índices de calidad están codificados en Phred+33
 
 
 ## Pregunta 3
 
 **Copia los primeros 10 símbolos de esta codificación y convierten estos símbolos en índices de calidad Phred (usando el guía visual arriba). Separa cada índice con un espacio.**
+Los primeros 10 símbolos son :
 
+<B@BBBB@@B@>
+
+Según la tabla guía, para Phred+33
+
+![tablaguia](https://bioinformaticsworkbook.org/introduction/assets/qualityscore.png)
+
+Estos son los indices de calidad Phred que corresponden a los primeros 10 símbolos de la codificación
+
+33-31-33-33-33-33-31-31-33-31
 
 ## Pregunta 4
 
 **¿Cuántos ORFs o genes encontró ORFfinder?**
 
+![ORF](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORF.PNG)
 
 ## Pregunta 5
 
 **¿En qué hebra están codificados?**
 
+![orfstrand](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORFstrand.PNG)
 
 ## Pregunta 6
 
@@ -48,6 +61,7 @@ Parte 1:
 
 **¿Qué tipo de programa es ORFfinder, Ab initio o por homología?**
 
+Es por Homología, ya que el programa busca en bases de datos curadas de proteinas o mRNas o transcriptomas, en este caso, el programa buscó por defecto en la base de datos curada **UniProtKB/Swiss-Prot(swissprot)**.
 
 ## Pregunta 9
 
