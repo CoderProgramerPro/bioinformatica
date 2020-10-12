@@ -23,9 +23,12 @@ Los índices de calidad están codificados en Phred+33
 ## Pregunta 3
 
 **Copia los primeros 10 símbolos de esta codificación y convierten estos símbolos en índices de calidad Phred (usando el guía visual arriba). Separa cada índice con un espacio.**
-Los primeros 10 símbolos son :
 
-> B@BBBB@@B@
+Los primeros 10 símbolos en la secuencia son:
+
+**B@BBBB@@B@**
+
+Las primeras lineas de esta secuencia se pueden encontrar en el siguiente [Link](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/FASTQERR016259)
 
 Según la tabla guía, para Phred+33
 
