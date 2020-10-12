@@ -1,4 +1,4 @@
-# Informe Bioinformática 5 - Ensamblaje de Genomas II
+Informe Bioinformática 5 - Ensamblaje de Genomas II
 ====
 
 * Karina Campos
@@ -11,6 +11,10 @@ Parte 1:
 ## Pregunta 1
 
 **¿El archivo que está descargando está en el formato FASTQ o FASTA? ¿Cuál es la diferencia principal entre los dos?**
+
+El archivo se encuentra en formato FASTAQ. La principal diferencia entre estos formatos es que FASTA almacena un número variable de registros de secuencia (cada registro almacena la secuencia y un ID de secuencia), la secuencia comienza con el carácter >, seguido del ID de la secuencia, luego continua en las siguientes líneas el registro de la secuencia real. Mientras que FASTQ indica que son de formato FASTA además del puntaje de “Q"uality de cada base ("FASTQ”), que se expresa en el puntaje de calidad Phred, comienza con @ que contiene el ID de secuencia, luego una o más líneas que contienen la secuencia, seguido de una nueva línea que comienza con el carácter + y que está vacía o repite el ID de secuencia, finalizando con una o más líneas que contienen las puntuaciones de calidad.
+
+FASTA no tenía una forma estandarizada de codificar esto. Por el contrario, un registro FASTQ contiene una secuencia de puntuaciones de calidad para cada nucleótido
 
 
 ## Pregunta 2
@@ -64,7 +68,10 @@ Estos son los indices de calidad Phred que corresponden a los primeros 10 símbo
 
 **¿Qué tipo de programa es ORFfinder, Ab initio o por homología?**
 
-Es por Homología, ya que el programa busca en bases de datos curadas de proteinas o mRNas o transcriptomas, en este caso, el programa buscó por defecto en la base de datos curada **UniProtKB/Swiss-Prot(swissprot)**.
+ORFfinder es un buscador de marcos de lectura abiertos (ORF) en la secuencia de ADN que ingresa, buscando segmentos que codifiquen proteínas potenciales, luego se comprueba la proteína mediante SMART BLAST o BLASTP.
+ORFfinder es un programa Ab initio, ya que a partir de una secuencia de DNA, se buscan señales de la presencia de un gen o región de interés (codones de inicio/término, sitios de unión de factores de transcripción, etc).
+
+s por Homología, ya que el programa busca en bases de datos curadas de proteinas o mRNas o transcriptomas, en este caso, el programa buscó por defecto en la base de datos curada **UniProtKB/Swiss-Prot(swissprot)**. 
 
 ## Pregunta 9
 
