@@ -32,7 +32,7 @@ Los primeros 10 símbolos en la secuencia son:
 
 **B@BBBB@@B@**
 
-Las primeras lineas de esta secuencia se pueden encontrar en el siguiente [Link](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/FASTQERR016259)
+Las primeras lineas de esta secuencia se pueden encontrar en el siguiente [link](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/FASTQERR016259)
 
 Según la tabla guía, para Phred+33
 
@@ -46,6 +46,8 @@ Estos son los indices de calidad Phred que corresponden a los primeros 10 símbo
 
 **¿Cuántos ORFs o genes encontró ORFfinder?**
 
+ORFfinder encontró 7 ORFs
+
 ![ORF](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORF.PNG)
 
 ## Pregunta 5
@@ -58,10 +60,28 @@ Estos son los indices de calidad Phred que corresponden a los primeros 10 símbo
 
 **¿De qué largo son los ORFs predichos?**
 
+ORF1: 909 nt (302 aá). 
+ORF4: 441 nt (146 aá).
+ORF7: 144 nt (47 aá).                                     
+ORF2: 78 nt (25 aá).
+ORF5: 405 nt (134 aá).
+ORF3: 99 nt (32 aá).
+ORF6: 84 nt (27 aá).
+
+
 
 ## Pregunta 7
 
 **¿Algunos de ellos se sobreponen (fíjate en la posición de inicio [start] y término [stop])?**
+
+* 1 y 7
+
+* 2 y 4
+
+* 3 y 5
+
+* 6 y 4
+
 
 
 ## Pregunta 8
@@ -70,8 +90,6 @@ Estos son los indices de calidad Phred que corresponden a los primeros 10 símbo
 
 ORFfinder es un buscador de marcos de lectura abiertos (ORF) en la secuencia de ADN que ingresa, buscando segmentos que codifiquen proteínas potenciales, luego se comprueba la proteína mediante SMART BLAST o BLASTP.
 ORFfinder es un programa Ab initio, ya que a partir de una secuencia de DNA, se buscan señales de la presencia de un gen o región de interés (codones de inicio/término, sitios de unión de factores de transcripción, etc).
-
-s por Homología, ya que el programa busca en bases de datos curadas de proteinas o mRNas o transcriptomas, en este caso, el programa buscó por defecto en la base de datos curada **UniProtKB/Swiss-Prot(swissprot)**. 
 
 ## Pregunta 9
 
@@ -97,11 +115,11 @@ Utilizando SmartBLAST en el la secuencia de ORF4 podemos encontrar que la prote�
 ![ORF4](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORF4.PNG)
 
 
-Utilizando SmartBLAST en el la secuencia de ORF5 podemos encontrar que es la subunidad psi de la DNA polimerasa III de Haemophilus influenzae.
+Utilizando SmartBLAST en la secuencia de ORF5 podemos encontrar que es la subunidad psi de la DNA polimerasa III de Haemophilus influenzae.
 
 ![orf5](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORF5.PNG)
 
-Utilizando SmartBLAST en el la secuencia de ORF6 podemos encontrar que tiene un bajo porcentaje de identidad con otras proteínas y no es coherente con proteínas del organismo que se esta trabajando Haemophilus influenzae. Esto se puede deber a lo corta que es la secuencia de aminoácidos. Sin embargo BLAST determinó que es más cercana a una proteína hipotetica de Actinobacteria bacterium
+Utilizando SmartBLAST en la secuencia de ORF6 podemos encontrar que tiene un bajo porcentaje de identidad con otras proteínas y no es coherente con proteínas del organismo que se está trabajando Haemophilus influenzae. Esto se puede deber a lo corta que es la secuencia de aminoácidos. Sin embargo, BLAST determinó que es más cercana a una proteína hipotética de Actinobacteria bacterium
 
 ![orf6](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%204%20real/ORF6.PNG)
 
@@ -115,7 +133,7 @@ Para ORF2 SmartBLAST no fue capaz de encontrar coincidencias
 
 **Tomando en cuenta la evidencia que acumulaste usando ORFfinder y BLAST. ¿Cuál o cuáles ORFs predichos por ORFfinder dirías tú que son o es el correcto(s)?**
 
-Los ORFs que pueden ser correctos son aquellos que tienen una secuencia relativamente larga, alto porcentaje de identidad con las secuencias alineadas y tienen una covertura cercana al 100%. Dentro de estos criterios ORF1 es el mejor candidato de ORF correcto, este codifica para una proteína accesoria de formato deshidrogenasa.
+Los ORFs que pueden ser correctos son aquellos que tienen una secuencia relativamente larga, alto porcentaje de identidad con las secuencias alineadas y tienen una cobertura cercana al 100%. Dentro de estos criterios ORF1 es el mejor candidato de ORF correcto, este codifica para una proteína accesoria de formato deshidrogenasa.
 
 ## Pregunta 12
 
@@ -133,9 +151,10 @@ EMEEKGFARSGLNPFVFPAEEA
 
 **¿Cual es la función de esa o esas proteínas?**
 
+Es una proteína accesoria de formato dehidrogenasa, su función es ayudar a plegar, localizar o estabilizar una proteína, en este caso [formato dehidrogenasa](https://www.uniprot.org/uniprot/P46448), la cual es una oxidoreductasa está encargada de utilizar formato como dador de electrones y NAD+ como aceptor de electrones en la respiración anaerobica.
 
 ## Pregunta 14
 
 **Según el paper original de la secuenciación del genoma del organismo con el que has trabajado (Fleischmann et al. 1995). ¿Cual es la metodología de secuenciación del genoma?, ¿Que ensamblador utilizaron? y ¿Cuantas regiones codificantes predijeron?**
 
-
+La metodología de secuenciación del genoma fue Shotgun sequencing y fue ensamblado usando un software llamado AUTOASSEMBLER que utiliza el algoritmo Contig Assembly Program (CAP) el cual no computa contigs intermedios. Se predijeron 1743 regiones codificantes según el artículo donde esta publicado el genoma de Haemophilus influenzae, correspondiente al primer genoma en ser secuenciado. 
