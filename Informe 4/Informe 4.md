@@ -12,7 +12,7 @@ Parte 1: La Tabla Hash
 
 **¿En qué interval encontramos la consulta entera ACGAT?**
 
-La consulta ACGAT la encontramos desde la base 6 hasta la 10 de la secuencia de referencia (ACGAACACGATCCTAACGCCA).
+La consulta <ACGAT> la encontramos desde la base 6 hasta la 10 de la secuencia de referencia (ACGAACACGATCCTAACGCCA).
 
 ## Pregunta 2
 
