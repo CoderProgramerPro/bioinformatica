@@ -1,4 +1,4 @@
-Informe Bioinformática 6 - Ensamblaje de Genomas II
+Informe Bioinformática 6 - Filogenética Molecular.
 ====
 
 * Karina Campos
@@ -44,9 +44,11 @@ Phylogeny.fr es un programa en donde podemos realizar nuestro propio flujo de tr
 **Incluye en tu informe una captura de pantalla de las dos filogenias que inferiste. Recuerden que tu nombre completo debe aparecer en la imagen de cada filogenia (Name of the analysis).**
 
 ![Campos Madrid 1](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%206/Campos%20Madrid%201.png)
+
 **Figura 1.** Árbol de filogenia generado con los siguientes parámetros: ProbCons, GBlocks, MrBayes, y TreeDyn.
 
 ![Campos Madrid 2](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%206/Campos%20Madrid%202.png)
+
 **Figura 2.** Árbol de filogenia generado con los siguientes parámetros: ClustalW, Remove positions with gaps, TNT, y TreeDyn.
 
 ## Pregunta 5
@@ -62,7 +64,7 @@ Al reconstruir un árbol filogenético a partir de un conjunto de secuencias. lo
 Ambos se utilizan para la reconstrucción filogenética.
 
 | BioNJ | NJ |
-| :--- | ---: |
+| :----: | :----: |
 | Velocidad alta | Velocidad alta |
 | Funciona incluso cuando el número de taxones es alto (> 1000 taxones) | Funciona mejor con un número bajo de taxones |
 | Necesita más memoria para almacenar varias matrices | Sólo utiliza una matriz |
@@ -73,9 +75,11 @@ Ambos se utilizan para la reconstrucción filogenética.
 **Incluye en tu informe una captura de pantalla de las dos filogenias que inferiste (sin Alignment curation). Recuerda que sus apellidos deben aparecer en la imagen de cada filogenia (Name of the analysis).**
 
 ![Campos Madrid 3](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%206/Campos%20Madrid%203.png)
+
 **Figura 3.** Árbol de filogenia generado con los siguientes parámetros: ProbCons, MrBayes, y TreeDyn.
 
 ![Campos Madrid 4](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%206/Campos%20Madrid%204.png)
+
 **Figura 4.** Árbol de filogenia generado con los siguientes parámetros: ClustalW, TNT, y TreeDyn.
 
 ## Pregunta 8
