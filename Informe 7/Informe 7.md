@@ -1,4 +1,4 @@
- Informe Bioinformática 6 - Metagenómica.
+ Informe Bioinformática 7 - Metagenómica.
 ====
 
 * Karina Campos
@@ -11,6 +11,8 @@ Parte 1:
 ### Pregunta 1
 
 **¿Cuántas secuencias fueron subidas?**
+
+Tiene 73,254 secuencias totales.
 
 ![SearchResults](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/Informe%207/searchresults.png)
 
