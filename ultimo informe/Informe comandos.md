@@ -5,7 +5,7 @@
 
 * Cristobal Madrid
 
-Parte 1: 
+
 ----
 
 ### Pregunta 1
