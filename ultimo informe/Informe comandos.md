@@ -13,17 +13,17 @@
 **Defina la función de cada uno de los comandos more, head y tail.**
 
 
-* more: Este comando mostrara los contenidos del fichero en la pantalla y le pedirá al usuario una pulsación de teclado para hacer un scroll en el fichero (`ejemplo: more<fichero>`). Mostrar línea por línea el archivo.
+* more: Este comando mostrara los contenidos del fichero en la pantalla y le pedirá al usuario una pulsación de teclado para hacer un scroll en el fichero (`ejemplo: more <fichero>`). Mostrar línea por línea el archivo.
 
 ![9](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/ultimo%20informe/9.png)
 
 
-* head: mostrará las primeras líneas de un archivo, puedes indicarle el número de líneas comenzando desde arriba que quieres mostrar (`ejemplo: head -10 test.txt`).
+* head: mostrará las primeras líneas de un archivo, puedes indicarle el número de líneas comenzando desde arriba que quieres mostrar (`ejemplo: head -10 mart_export.txt`).
 
 ![10](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/ultimo%20informe/10.png)
 
 
-* tail: mostrará las últimas líneas de un fichero, utilizando el comando tail y el número de líneas que queremos mostrar, este comando empezará desde la última línea hacía arriba (ejemplo: `tail -10 test.txt`).
+* tail: mostrará las últimas líneas de un fichero, utilizando el comando tail y el número de líneas que queremos mostrar, este comando empezará desde la última línea hacía arriba (ejemplo: `tail -10 mart_export.txt`).
 
 ![11](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/ultimo%20informe/11.png)
 
