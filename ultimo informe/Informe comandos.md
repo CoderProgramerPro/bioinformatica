@@ -51,6 +51,16 @@
 
 Para generar un archivo ordenado alfabética o lexicográficamente es `sort mart_export.txt`, sin líneas duplicadas es `uniq mart_export.txt`.
 
+`sort mart_export.txt`
+
+![6](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/6.png)
+
+`uniq mart_export.txt`
+
+![7](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/7.png)
+
+
 La línea de comando para saber cuanto pesa el archivo nuevo en formato legibles es: `du -sh mart_export.txt`
 
+![5](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/5.png)
 
