@@ -30,10 +30,10 @@
 
 ![1](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/1.jpg)
 
-* 2: `uniq mart_export.txt | wc -1`
+* 2: `uniq mart_export.txt | wc -l`
 
 
-![2](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/2.jpg)
+![8](https://raw.githubusercontent.com/CoderProgramerPro/bioinformatica/master/ultimo%20informe/8.png)
 
 * 3: `grep -v " " mart_export.txt`
 
